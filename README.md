@@ -1,15 +1,15 @@
 -> Nerd Font
 https://www.nerdfonts.com/font-downloads
 
- _____________________________
-|                             |
-| sudo apt install nodejs     |
-| sudo apt install python3    |
-| sudo apt install python3-pip|
-| pip install pynvim          |
-| sudo apt-get install ripgrep|
-| sudo apt install fd-find    |
-|_____________________________|
+
+
+ sudo apt install nodejs
+ sudo apt install python3
+ sudo apt install python3-pip
+ pip install pynvim
+ sudo apt-get install ripgrep
+ sudo apt install fd-find
+
 
 
 -> vim-plug
@@ -27,3 +27,6 @@ nvim .zshrc
 ZSH_THEME="agnoster"
 
 -> Create a folder inside .config named nvim, put init.vim and coc-settings.json inside that folder.
+
+-> Wallpapers
+https://github.com/linuxdotexe/nordic-wallpapers/tree/master/wallpapers
