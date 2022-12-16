@@ -40,6 +40,20 @@ sudo apt install python3
 sudo apt install python3-pip
 ```
 
+<h2>Install NeoVim</h2>
+ 
+ ```bash
+sudo apt install neovim
+```
+
+> <h2>Update Neovim</h2>
+
+ ```bash
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+```
+
 <h2>Install Pynvim:</h2>
  
 ```bash
