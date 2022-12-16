@@ -24,7 +24,8 @@ ZSH_THEME="agnoster"
 <h2>Install NodeJS:</h2>
 
 ```bash
-sudo apt install nodejs
+curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
 ```
 
 <h2>Install Python3:</h2>
@@ -67,7 +68,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 <h2>Install CLang-15:</h2>
 
 ```bash
-sudo apt-get install clang-15
+wget https://apt.llvm.org/llvm.sh
+chmod +x llvm.sh
+sudo ./llvm.sh 15
 ```
 
 <h2>Replace clang-15 with clang:</h2>
